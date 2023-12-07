@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 require("./DB/Connect");
 const port = process.env.port;
-// my Name is Viay Dabhi
+
 // Access-Control-Allow-Origin
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
